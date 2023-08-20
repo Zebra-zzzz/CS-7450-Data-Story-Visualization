@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+
+        <section id="intro">
+            <h1 class="intro__hed text">Insights into the Gross of Movies</h1>
+            <p class="intro__dek text">
+                Start scrolling to read the data story.
+            </p>
+        </section>
+
+        <section id="scrolly">
+            <article>
+                <div class="step" data-step="1">
+                    <p class="text title">This is a data story about some interesting insights into the gross of movies</p>
+                    <p class="text">Each node represents a movie. The size of each node is positively correlated with its gross. Different color represents different genres.</p>
+                </div>
+                <div class="step" data-step="2">
+                    <p class="text title">Adventure and action movies have the highest average gross </p>
+                    <p class="text">Adventure movies have an average gross of $125884510. Action movies have an average gross of 88840322. It is no wonder they are among the 4 most frequently shooted genres.</p>
+                </div>
+                <div class="step" data-step="3">
+                    <p class="text title">Comedy and drama movies are another story</p>
+                    <p class="text">Even though comedy and drama are also among the top 4 frequently shooted genres, their gross is much lower than action and adventure movies.</p>
+                </div>
+                <div class="step" data-step="4">
+                    <p class="text title">High gross does not mean high return of interest (ROI)</p>
+                    <p class="text">It is interesting that even though the gross of comedy and drama is not that high, but their ROI (Comedy: 1.05, Drama: 1.003) is much higher than adventure and action movies (Adventure: 0.31, Action: 0.15). And surprisingly, horror gots the highest average ROI rate of 11.46.</p>
+                </div>
+                <div class="step" data-step="5">
+                    <p class="text title">IMDb score does affect gross to some extent</p>
+                    <p class="text">While a higher IMDb score cannot guarantee a higer gross, but in generall a movie with a higher score is more likely to have a higher gross.</p>
+                </div>
+                <div class="step" data-step="6">
+                    <p class="text title">Movie duration</p>
+                    <p class="text">Interestingly, the duration of a movie does not seem to have much of an effect on gross</p>
+                </div>
+                <div class="step" data-step="7">
+                    <p class="text title">The top5 directors</p>
+                    <p class="text">Directors who directed Marvel, Disney, and Pixar movies got the highest gross</p>
+                </div>
+                <div class="step" data-step="8">
+                    <p class="text title">The top5 actors</p>
+                    <p class="text">Unlike directors, actors with the highest gross are not those who only acted in Marvel movies. Even Robert Downey who is famous for Iron Man has acted in wide variety of movies like Sherlock Holmes, Due Date. </p>
+                </div>
+                <!-- <div class="step" data-step="9">
+                    <p class="text">STEP 9</p>
+                </div> -->
+            </article>
+
+            <svg>
+            </svg>
+
+
+        </section>
+
+        <section id="outro"></section>
+    </main>
+</body>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://unpkg.com/scrollama"></script>
+<script src="./script.js"></script>
+</html>
